@@ -1,0 +1,32 @@
+section{
+	padding-top: 20px;
+	padding-bottom: 150px;
+	padding-left: 150px;
+	padding-right: 150px;
+	
+}
+.carousel-control-prev-icon{
+	background-image: url(./img/left.svg);
+}
+.carousel-control-next-icon{
+	background-image: url(./img/right.svg);
+}
+.carousel-control-prev{
+	left: -150px;
+}
+.carousel-control-next{
+	right: -95px;
+}
+.bg-light{
+	background-color: #a9a9a9!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #808080;
+    border-color: #808080; /*set the color you want here*/
+}
