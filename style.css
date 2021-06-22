@@ -1,0 +1,109 @@
+section{
+    padding-top: 0px;
+
+    padding-left: 7.5px;
+    padding-right: 0px;
+    
+}
+
+
+@media screen and (min-width: 321px) {
+    section{
+
+        padding-top: 10px;
+
+        padding-left: 150px;
+        padding-right: 150px;
+        
+        
+    }
+}
+.carousel-control-prev-icon{
+	background-image: url(./img/left.svg);
+}
+.carousel-control-next-icon{
+	background-image: url(./img/right.svg);
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-control-prev{
+        opacity: 0.01;
+    }
+    .carousel-control-next{
+        opacity: 0.01;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-control-prev{
+        left: -12%;
+    }
+    .carousel-control-next{
+        right: -12%;
+    }
+}
+
+.bg-light{
+	background-color: #F8F9FA!important;
+}
+.btn-primary {
+    color: #000;
+    background-color: #F8F9FA;
+    border-color: #000000;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #808080;
+    border-color: #808080; /*set the color you want here*/
+}
+
+.form-check-input:checked {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 0 2px #808080, 0 0 13px #333; /* Параметры теней */
+}
+
+
+
+.btn-primary:active:hover{
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+
+html{
+    height: 100vh;
+
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100vh;
+    color: #000000;
+    background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+
+.panel{
+    position: sticky;
+    flex-direction: column;
+
+    top: 10px;
+}
+
+
+.card-img-top{
+    object-fit: cover;
+}
+.mb-3{
+    padding-left: 10px;
+}
